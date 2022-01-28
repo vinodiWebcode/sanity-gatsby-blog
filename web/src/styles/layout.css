@@ -34,7 +34,7 @@ body > div > div {
   transform:translateY(0); transition: all 0.3s ease-in-out;
 }
 .bgImage {
-  background-image: url("../Images/bg_1.jpg");
+  background-image: url("../images/bg_1.jpg");
   height: 913px;
   background-position: 50% 100px;
 }
@@ -228,10 +228,10 @@ body > div > div {
   margin-right: 1.5rem !important;
 }
 .newsbgImg {
-  background-image: url("../Images/ximage_1.png");
+  background-image: url("../images/ximage_1.png");
 }
 .newsbgImg2 {
-  background-image: url("../Images/ximage_2.png");
+  background-image: url("../images/ximage_2.png");
 }
 .block-21 .text .meta > div {
   display: inline-block;

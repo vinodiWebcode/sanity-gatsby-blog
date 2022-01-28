@@ -54,7 +54,6 @@ function BlogPostPreview(props) {
               <li className="ftco-animate fadeInUp ftco-animated">
                 <Link to="#">
                   <span className="icon-twitter"></span>
-                  <span className="fab fa-twitter-square"></span>
                 </Link>
               </li>
               <li className="ftco-animate fadeInUp ftco-animated">
