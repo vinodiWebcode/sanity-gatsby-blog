@@ -1,6 +1,5 @@
 /* eslint-disable import/no-unresolved */
 import React from "react";
-// import PropTypes from "prop-types";
 import Helmet from "react-helmet";
 import { graphql, useStaticQuery } from "gatsby";
 import { imageUrlFor } from "../lib/image-url";

@@ -1,12 +1,18 @@
-/* eslint-disable import/no-unresolved */
+// eslint-disable-next-line import/no-unresolved
 import BlogPostPreviewGrid from "../components/blog-post-preview-grid";
+// eslint-disable-next-line import/no-unresolved
 import Container from "../components/container";
+// eslint-disable-next-line import/no-unresolved
 import GraphQLErrorList from "../components/graphql-error-list";
+// eslint-disable-next-line import/no-unresolved
 import Layout from "../containers/layout";
 import React from "react";
+// eslint-disable-next-line import/no-unresolved
 import SEO from "../components/seo";
 import { graphql } from "gatsby";
+// eslint-disable-next-line import/no-unresolved
 import { mapEdgesToNodes } from "../lib/helpers";
+
 import { responsiveTitle1 } from "../components/typography.module.css";
 
 export const query = graphql`
