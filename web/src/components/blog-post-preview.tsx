@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import PortableText from "./portableText";
 import React from "react";
-import { format } from "date-fns";
+// import { format } from "date-fns";
 import { imageUrlFor } from "../lib/image-url";
 
 // import { responsiveTitle3 } from "./typography.module.css";
@@ -54,6 +54,7 @@ function BlogPostPreview(props) {
               <li className="ftco-animate fadeInUp ftco-animated">
                 <Link to="#">
                   <span className="icon-twitter"></span>
+                  <span className="fab fa-twitter-square"></span>
                 </Link>
               </li>
               <li className="ftco-animate fadeInUp ftco-animated">
