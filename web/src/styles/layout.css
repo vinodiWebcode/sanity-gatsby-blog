@@ -77,6 +77,16 @@ body > div > div {
   opacity: 0;
   visibility: hidden;
 } */
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  z-index: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
 .hero-wrap .overlay {
   position: absolute;
   top: 0;

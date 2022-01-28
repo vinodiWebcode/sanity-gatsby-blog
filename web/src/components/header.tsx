@@ -10,31 +10,31 @@ import { cn } from "../lib/helpers";
 import * as styles from "./header.module.css";
 
 const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
-  // <div className={styles.root}>
-  //   <div className={styles.wrapper}>
-  //     <div className={styles.branding}>
-  //       <Link to="/">{siteTitle}</Link>
-  //     </div>
+  <section className="bgImage hero-wrap">
+    {/* <div className={styles.root}>
+      <div className={styles.wrapper}>
+        <div className={styles.branding}>
+          <Link to="/">{siteTitle}</Link>
+        </div>
 
-  //     <button
-  //       className={styles.toggleNavButton}
-  //       onClick={showNav ? onHideNav : onShowNav}
-  //     >
-  //       <Icon symbol="hamburger" />
-  //     </button>
+        <button
+          className={styles.toggleNavButton}
+          onClick={showNav ? onHideNav : onShowNav}
+        >
+          <Icon symbol="hamburger" />
+        </button>
 
-  //     <nav className={cn(styles.nav, showNav && styles.showNav)}>
-  //       <ul>
-  //         <li>
-  //           <Link to="/archive/">Archive</Link>
-  //         </li>
-  //       </ul>
-  //     </nav>
-  //   </div>
-  // </div>
+        <nav className={cn(styles.nav, showNav && styles.showNav)}>
+          <ul>
+            <li>
+              <Link to="/archive/">Archive</Link>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div> */}
 
-  <section className="bgImage">
-    <nav className="autohide navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav className="autohide navbar navbar-expand-lg bg-transparent">
       <div className="container">
         <Link className="navbar-brand" to="#">
           Read
@@ -79,7 +79,7 @@ const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
       </div>
     </nav>
 
-    <div className="hero-wrap js-fullheight">
+    <div className="js-fullheight">
       <div className="overlay"></div>
       <div className="container">
         <div
