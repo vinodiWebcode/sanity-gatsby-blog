@@ -1,16 +1,11 @@
+/* eslint-disable import/no-unresolved */
 import { graphql } from "gatsby";
-// eslint-disable-next-line import/no-unresolved
 import BlogPost from "../components/blog-post";
 import React from "react";
-// eslint-disable-next-line import/no-unresolved
 import GraphQLErrorList from "../components/graphql-error-list";
-// eslint-disable-next-line import/no-unresolved
 import Layout from "../containers/layout";
-// eslint-disable-next-line import/no-unresolved
 import Container from "../components/container";
-// eslint-disable-next-line import/no-unresolved
 import SEO from "../components/seo";
-// eslint-disable-next-line import/no-unresolved
 import { toPlainText } from "../lib/helpers";
 
 export const query = graphql`
