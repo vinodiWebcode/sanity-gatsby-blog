@@ -25,6 +25,7 @@
   position: relative;
   padding-bottom: 66.666%;
   background: var(--color-very-light-gray);
+  display: flex;
 
   @nest & img {
     position: absolute;

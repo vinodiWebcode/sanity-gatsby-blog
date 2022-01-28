@@ -1,14 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html {
   font-family: var(--font-family-sans);
   font-size: var(--font-base-size);
   line-height: var(--font-base-line-height);
 }
 
-body {
+/* body {
   -webkit-font-smoothing: antialiased;
   background: var(--color-white);
   color: var(--color-black);
   margin: 0;
+} */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background: #fff;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: 400;
+  color: gray;
 }
 
 html,
@@ -17,3 +27,284 @@ body > div,
 body > div > div {
   height: 100%;
 }
+.scrolled-down{
+  transform:translateY(-100%); transition: all 0.3s ease-in-out;
+}
+.scrolled-up{
+  transform:translateY(0); transition: all 0.3s ease-in-out;
+}
+.bgImage {
+  background-image: url("../Images/Heroimg.png");
+  height: 913px;
+  background-position: 50% 100px;
+}
+.navbar-brand i {
+  font-style: normal;
+  color: #ffd369;
+}
+ .navbar-nav>.nav-item>.nav-link {
+  font-size: 18px;
+  padding-top: .9rem;
+  padding-bottom: .9rem;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: rgba(255,255,255,.8);
+  font-weight: 400;
+  opacity: 1!important;
+}
+ .navbar-nav>.nav-item>.nav-link:hover {
+  color: #ffd369;
+}
+.container .navbar-brand {
+  font-weight: 900;
+  font-size: 26px;
+  font-family: "Poppins",Arial,sans-serif;
+  line-height: 1;
+}
+.container {
+  max-width: 1210px;
+}
+.hero-wrap {
+  width: 100%;
+  height: 100%;
+  position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  position: relative;
+}
+/* .ftco-animate {
+  opacity: 0;
+  visibility: hidden;
+} */
+.hero-wrap .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: '';
+  opacity: .8;
+  background: #f200ff;
+  background: -moz-linear-gradient(45deg, #f200ff 0%, #ffba42 100%);
+  background: -webkit-gradient(left bottom, right top, color-stop(0%, #f200ff), color-stop(100%, #ffba42));
+  background: -webkit-linear-gradient(45deg, #f200ff 0%, #ffba42 100%);
+  background: -o-linear-gradient(45deg, #f200ff 0%, #ffba42 100%);
+  background: -ms-linear-gradient(45deg, #f200ff 0%, #ffba42 100%);
+  background: linear-gradient(45deg, #f200ff 0%, #ffba42 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f200ff', endColorstr='#ffba42', GradientType=1 );
+}
+.col-md-12.ftco-animate.fadeInUp.ftco-animated {
+  z-index: 1;
+}
+.slider-text .subheading {
+  font-size: 18px;
+  color: white;
+  font-family: "Poppins", Arial, sans-serif;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.slider-text h1 {
+  font-size: 10vw;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 700;
+  font-family: "Poppins", Arial, sans-serif;
+}
+.slider-text .text {
+  position: relative;
+}
+.slider-text p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* footer css */
+
+.ftco-footer {
+  font-size: 16px;
+  background: #222831;
+  padding: 5em 0 3em 0;
+}
+.ftco-section {
+  padding: 7em 0;
+  position: relative;
+}
+.mb-4 {
+  margin-bottom: 1.5rem !important;
+}
+.ftco-footer .ftco-footer-widget h2 {
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.ftco-footer .logo {
+  font-size: 34px !important;
+  font-weight: 800 !important;
+  line-height: 1;
+}
+.ftco-footer .logo a {
+  color: #fff;
+}
+.ftco-footer .logo a span {
+  color: #ffd369;
+}
+.ftco-footer p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.ftco-footer {
+  font-size: 16px;
+  background: #222831;
+  padding: 5em 0 3em 0;
+}
+.ftco-footer .ftco-footer-widget h2 {
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.ftco-footer .ftco-heading-2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #000000;
+  position: relative;
+}
+.block-21 .img {
+  display: block;
+  height: 80px;
+  width: 80px;
+}
+.img, .blog-img, .user-img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.rounded {
+  border-radius: 0.25rem !important;
+}
+.block-21 .text {
+  width: calc(100% - 100px);
+}
+.block-21 .text .heading {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+.ftco-footer .block-21 .text .heading a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  background-color: transparent;
+}
+.block-21 .text .heading a:hover, .block-21 .text .heading a:active, .block-21 .text .heading a:focus {
+  color: #ffd369;
+}
+.block-21 .text .meta > div a {
+  color: gray;
+}
+.ftco-footer .block-21 .meta > div a {
+  font-size: 11px;
+  text-decoration: none;
+  background-color: transparent;
+}
+.mr-4 {
+  margin-right: 1.5rem !important;
+}
+.newsbgImg {
+  background-image: url("../Images/Heroimg.png");
+}
+.newsbgImg2 {
+  background-image: url("../Images/ximage_2.png");
+}
+.block-21 .text .meta > div {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.ftco-footer .ftco-footer-widget h2 {
+  font-weight: normal;
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.ftco-footer .ftco-heading-2 {
+  position: relative;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.ftco-footer .ftco-footer-widget ul li a {
+  color: #fff;
+  text-decoration: none;
+  background-color: transparent;
+}
+.ftco-footer .ftco-footer-widget ul li a span {
+  color: #fff;
+}
+.block-23 ul {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.block-23 ul li, .block-23 ul li > a {
+  display: table;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.block-23 ul li .icon {
+  width: 40px;
+  font-size: 18px;
+  padding-top: 2px;
+  color: white;
+  display: table-cell;
+  vertical-align: top;
+}
+.block-23 ul li .icon, .block-23 ul li .text {
+  display: table-cell;
+  vertical-align: top;
+}
+.block-23 ul li span {
+  color: rgba(255, 255, 255, 0.7);
+}
+span.ion-ios-arrow-forward.mr-3 {
+  content: "\003E";
+}
+.mr-3 {
+  margin-right: 1rem !important;
+}
+.ftco-footer .ftco-footer-widget ul li a:hover {
+  color: #ffd369;
+}
+a:hover, a:focus {
+  text-decoration: none;
+  color: #ffd369;
+  outline: none !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.ftco-footer p {
+  color: rgba(255, 255, 255, 0.7);
+}
+.ftco-footer a {
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  background-color: transparent;
+}
+.ftco-footer a:hover {
+  color: #fff;
+}
+

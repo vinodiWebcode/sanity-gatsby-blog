@@ -1,5 +1,5 @@
+/* eslint-disable import/no-unresolved */
 import React from "react";
-
 const strokeStyle = { vectorEffect: "non-scaling-stroke" };
 
 const HamburgerIcon = () => (
