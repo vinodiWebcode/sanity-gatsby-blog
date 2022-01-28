@@ -16,12 +16,21 @@
   "devDependencies": {
     "@sanity/cli": "^2.7.4",
     "babel-eslint": "^10.1.0",
+    "css-loader": "^6.5.1",
     "eslint": "^7.21.0",
-    "eslint-config-prettier": "^8.1.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-prettier": "^3.4.1",
     "eslint-plugin-react": "^7.22.0",
     "lerna": "^3.13.1",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "style-loader": "^3.3.1"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.10",
+    "@types/react-dom": "^17.0.11",
+    "@types/react-helmet": "^6.1.5",
+    "bootstrap": "5.0.1",
+    "i": "^0.3.7"
   }
 }
