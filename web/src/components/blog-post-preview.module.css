@@ -1,12 +1,108 @@
-@import '../styles/custom-media.css';
-@import '../styles/custom-properties.css';
+@import "../styles/custom-media.css";
+@import "../styles/custom-properties.css";
 
 .root {
   display: block;
   color: inherit;
   text-decoration: none;
 }
-
+.gridList {
+  display: flex;
+  margin-left: 40px;
+}
+.gridListdiv {
+  display: flex;
+}
+.subheading {
+  font-weight: 500;
+  font-size: 14px;
+  display: inline-block;
+  margin-bottom: 10px;
+  color: rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+.subh {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.subh a {
+  color: #000000;
+  text-decoration: none;
+  background-color: transparent;
+  transition: 0.3s all ease;
+}
+.listunstyled {
+  padding-left: 0;
+  list-style: none;
+}
+@meta {
+}
+.meta p a {
+  color: rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 12px;
+  transition: 0.3s all ease;
+}
+.listunstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.listunstyled ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+/* .listunstyled li {
+  list-style: none;
+  margin: 0 5px 0 0;
+  display: inline-block;
+}
+.ftcoanimate {
+  opacity: 0;
+  visibility: hidden;
+}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.ftcoanimated {
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.ftcoanimated li a {
+  height: 50px;
+  width: 50px;
+  display: block;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  position: relative;
+  color: #000000;
+  text-decoration: none;
+  -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    color: #ffd369;
+}
+.case .text .media-social li a span {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+} */
+.mediasocial {
+  opacity: 0;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
 .inList {
   composes: root;
 

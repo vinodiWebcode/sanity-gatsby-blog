@@ -3,13 +3,12 @@
 import { Link } from "gatsby";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { StaticImage } from "gatsby-plugin-image";
 import Icon from "./icon";
 import { cn } from "../lib/helpers";
 
 import * as styles from "./header.module.css";
-
-const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
+const Header = () => (
+  // const Header = ({ onHideNav, onShowNav, showNav, siteTitle }) => (
   <section className="bgImage hero-wrap">
     {/* <div className={styles.root}>
       <div className={styles.wrapper}>
