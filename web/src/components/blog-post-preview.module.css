@@ -9,6 +9,7 @@
 .gridList {
   display: flex;
   margin-left: 40px;
+  grid-template-columns: 1fr 1fr;
 }
 .gridListdiv {
   display: flex;
