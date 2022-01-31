@@ -475,3 +475,7 @@ a:focus {
 .ftco-footer .ftco-footer-widget ul li a:hover span {
   color: #ffd369;
 }
+h2 {
+  text-decoration: none;
+  outline: none !important;
+}
