@@ -18,6 +18,7 @@ body {
   line-height: 1.8;
   font-weight: 400;
   color: gray;
+  text-decoration: none;
 }
 
 html,
@@ -325,4 +326,116 @@ a:focus {
 }
 .ftco-footer a:hover {
   color: #fff;
+}
+.text ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.text .media-social {
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+.text .list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.text .media-social li {
+  list-style: none;
+  margin: 0 15px 0 0;
+  display: inline-block;
+}
+.text .ftco-animate {
+  /* opacity: 0;
+  visibility: hidden; */
+  -webkit-animation-duration: .5s;
+  animation-duration: .5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.text .fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.text .media-social li a {
+  height: 50px;
+  width: 50px;
+  display: block;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  position: relative;
+  color: #000000;
+}
+.text .media-social li a:hover {
+  background: #ffd369;
+  color: #000000;
+}
+.text .media-social li a:focus {
+  text-decoration: none;
+  color: #ffd369;
+  outline: none !important;
+}
+.text .media-social li a span {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+/* .text .media-social li a span [class^="icon-"], [class*=" icon-"] {
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+.text ul {
+  padding-left: 0rem!important
+}
+
+/* pagination css */
+
+.mt-5 {
+  margin-top: 3rem !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.block-27 ul {
+  padding: 0;
+  margin: 0;
+}
+.block-27 ul li {
+  display: inline-block;
+  margin-bottom: 4px;
+  font-weight: 400;
+}
+.block-27 ul li a, .block-27 ul li span {
+  color: gray;
+  text-align: center;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  font-weight: 400;
+  transition: .3s all ease;
+  text-decoration: none;
+    background-color: transparent;
+  border: 1px solid #e6e6e6;
+}
+.block-27 ul li.active a, .block-27 ul li.active span {
+  background: #ffd369;
+  color: #fff;
+  border: 1px solid transparent;
 }
