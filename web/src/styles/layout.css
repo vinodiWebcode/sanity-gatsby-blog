@@ -482,3 +482,9 @@ h2 {
   text-decoration: none;
   outline: none !important;
 }
+.text.w-100.pl-md-3:hover .ftco-animated {
+  display: inline-block;
+}
+.text li.ftco-animate.fadeInUp.ftco-animated {
+  display: none;
+}
