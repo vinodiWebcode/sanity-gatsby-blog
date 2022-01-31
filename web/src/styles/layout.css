@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 html {
   font-family: var(--font-family-sans);
   font-size: var(--font-base-size);
@@ -27,11 +26,13 @@ body > div,
 body > div > div {
   height: 100%;
 }
-.scrolled-down{
-  transform:translateY(-100%); transition: all 0.3s ease-in-out;
+.scrolled-down {
+  transform: translateY(-100%);
+  transition: all 0.3s ease-in-out;
 }
-.scrolled-up{
-  transform:translateY(0); transition: all 0.3s ease-in-out;
+.scrolled-up {
+  transform: translateY(0);
+  transition: all 0.3s ease-in-out;
 }
 .bgImage {
   background-image: url("../images/bg_1.jpg");
@@ -42,23 +43,23 @@ body > div > div {
   font-style: normal;
   color: #ffd369;
 }
- .navbar-nav>.nav-item>.nav-link {
+.navbar-nav > .nav-item > .nav-link {
   font-size: 18px;
-  padding-top: .9rem;
-  padding-bottom: .9rem;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
   padding-left: 20px;
   padding-right: 20px;
-  color: rgba(255,255,255,.8);
+  color: rgba(255, 255, 255, 0.8);
   font-weight: 400;
-  opacity: 1!important;
+  opacity: 1 !important;
 }
- .navbar-nav>.nav-item>.nav-link:hover {
+.navbar-nav > .nav-item > .nav-link:hover {
   color: #ffd369;
 }
 .container .navbar-brand {
   font-weight: 900;
   font-size: 26px;
-  font-family: "Poppins",Arial,sans-serif;
+  font-family: "Poppins", Arial, sans-serif;
   line-height: 1;
 }
 .container {
@@ -73,10 +74,6 @@ body > div > div {
   background-position: top center;
   position: relative;
 }
-/* .ftco-animate {
-  opacity: 0;
-  visibility: hidden;
-} */
 .navbar {
   position: relative;
   display: flex;
@@ -84,8 +81,8 @@ body > div > div {
   z-index: 1;
   align-items: center;
   justify-content: space-between;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .hero-wrap .overlay {
   position: absolute;
@@ -93,11 +90,16 @@ body > div > div {
   left: 0;
   right: 0;
   bottom: 0;
-  content: '';
-  opacity: .8;
+  content: "";
+  opacity: 0.8;
   background: #f200ff;
   background: -moz-linear-gradient(45deg, #f200ff 0%, #ffba42 100%);
-  background: -webkit-gradient(left bottom, right top, color-stop(0%, #f200ff), color-stop(100%, #ffba42));
+  background: -webkit-gradient(
+    left bottom,
+    right top,
+    color-stop(0%, #f200ff),
+    color-stop(100%, #ffba42)
+  );
   background: -webkit-linear-gradient(45deg, #f200ff 0%, #ffba42 100%);
   background: -o-linear-gradient(45deg, #f200ff 0%, #ffba42 100%);
   background: -ms-linear-gradient(45deg, #f200ff 0%, #ffba42 100%);
@@ -191,7 +193,9 @@ body > div > div {
   height: 80px;
   width: 80px;
 }
-.img, .blog-img, .user-img {
+.img,
+.blog-img,
+.user-img {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -213,7 +217,9 @@ body > div > div {
   text-decoration: none;
   background-color: transparent;
 }
-.block-21 .text .heading a:hover, .block-21 .text .heading a:active, .block-21 .text .heading a:focus {
+.block-21 .text .heading a:hover,
+.block-21 .text .heading a:active,
+.block-21 .text .heading a:focus {
   color: #ffd369;
 }
 .block-21 .text .meta > div a {
@@ -269,7 +275,8 @@ ul {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-.block-23 ul li, .block-23 ul li > a {
+.block-23 ul li,
+.block-23 ul li > a {
   display: table;
   line-height: 1.5;
   margin-bottom: 15px;
@@ -282,7 +289,8 @@ ul {
   display: table-cell;
   vertical-align: top;
 }
-.block-23 ul li .icon, .block-23 ul li .text {
+.block-23 ul li .icon,
+.block-23 ul li .text {
   display: table-cell;
   vertical-align: top;
 }
@@ -298,7 +306,8 @@ span.ion-ios-arrow-forward.mr-3 {
 .ftco-footer .ftco-footer-widget ul li a:hover {
   color: #ffd369;
 }
-a:hover, a:focus {
+a:hover,
+a:focus {
   text-decoration: none;
   color: #ffd369;
   outline: none !important;
@@ -317,4 +326,3 @@ a:hover, a:focus {
 .ftco-footer a:hover {
   color: #fff;
 }
- 
