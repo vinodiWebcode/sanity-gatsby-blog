@@ -1,7 +1,9 @@
 /* eslint-disable import/no-unresolved */
 import React, { ReactNode } from "react";
 import Header from "./header";
-
+import { GrInstagram } from "@react-icons/all-files/gr/GrInstagram";
+import { GrFacebook } from "@react-icons/all-files/gr/GrFacebook";
+import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
 import "../styles/layout.css";
 import * as styles from "./layout.module.css";
 import { Link } from "gatsby";
@@ -52,22 +54,22 @@ const Layout = ({
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts.
               </p>
-              <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+              <ul className="d-flex ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li className="ftco-animate fadeInUp ftco-animated">
                   <Link to="#">
                     <span className="icon-twitter">
-                      <i className="bi bi-twitter"></i>
+                    <FaTwitterSquare/>
                     </span>
                   </Link>
                 </li>
                 <li className="ftco-animate fadeInUp ftco-animated">
                   <Link to="#">
-                    <span className="icon-facebook"></span>
+                    <span className="icon-facebook"><GrFacebook/></span>
                   </Link>
                 </li>
                 <li className="ftco-animate fadeInUp ftco-animated">
                   <Link to="#">
-                    <span className="icon-instagram"></span>
+                    <span className="icon-instagram"><GrInstagram/></span>
                   </Link>
                 </li>
               </ul>
