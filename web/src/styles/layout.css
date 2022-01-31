@@ -82,8 +82,8 @@ body > div > div {
   z-index: 1;
   align-items: center;
   justify-content: space-between;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2.5rem;
 }
 .hero-wrap .overlay {
   position: absolute;
@@ -310,7 +310,7 @@ span.ion-ios-arrow-forward.mr-3 {
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #ffd369;
+  color: gray;
   outline: none !important;
 }
 .text-center {
@@ -326,6 +326,9 @@ a:focus {
 }
 .ftco-footer a:hover {
   color: #fff;
+}
+img {
+  height: 400px;
 }
 .text ul {
   margin-top: 0;
