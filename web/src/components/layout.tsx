@@ -3,7 +3,7 @@ import React, { ReactNode } from "react";
 import Header from "./header";
 import { GrInstagram } from "@react-icons/all-files/gr/GrInstagram";
 import { GrFacebook } from "@react-icons/all-files/gr/GrFacebook";
-import { BiMap } from "@react-icons/all-files/Bi/BiMap";
+import { RiMapPinLine } from "@react-icons/all-files/ri/RiMapPinLine";
 import { VscCallIncoming } from "@react-icons/all-files/vsc/VscCallIncoming";
 import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail";
 import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
@@ -167,7 +167,7 @@ const Layout = ({
                 <ul>
                   <li>
                     <span className="icon icon-map-marker">
-                      <BiMap />
+                      <RiMapPinLine />
                     </span>
                     <span className="text">
                       203 Fake St. Mountain View, San Francisco, California, USA
