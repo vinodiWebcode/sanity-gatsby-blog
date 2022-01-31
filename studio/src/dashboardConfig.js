@@ -12,8 +12,7 @@ export default {
                 "NOTE: Because these sites are static builds, they need to be re-deployed to see the changes when documents are published.",
               sites: [
                 {
-                  buildHookId:
-                    "61f38ca6b9b09f509d330d5a",
+                  buildHookId: "61f38ca6b9b09f509d330d5a",
                   title: "Sanity Studio",
                   name: "sanity-gatsby-blog-studio-uwsz149o",
                   apiId: "e4707cfc-89c9-416b-aa37-0d9cd58ff340",
@@ -31,8 +30,7 @@ export default {
         data: [
           {
             title: "GitHub repo",
-            value:
-              "https://github.com/vinodiWebcode/sanity-gatsby-blog",
+            value: "https://github.com/vinodiWebcode/sanity-gatsby-blog",
             category: "Code",
           },
           {
