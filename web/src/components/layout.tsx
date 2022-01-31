@@ -1,7 +1,12 @@
 /* eslint-disable import/no-unresolved */
 import React, { ReactNode } from "react";
 import Header from "./header";
-
+import { GrInstagram } from "@react-icons/all-files/gr/GrInstagram";
+import { GrFacebook } from "@react-icons/all-files/gr/GrFacebook";
+import { BiMap } from "@react-icons/all-files/Bi/BiMap";
+import { VscCallIncoming } from "@react-icons/all-files/vsc/VscCallIncoming";
+import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail";
+import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
 import "../styles/layout.css";
 import * as styles from "./layout.module.css";
 import { Link } from "gatsby";
@@ -52,22 +57,26 @@ const Layout = ({
                 Far far away, behind the word mountains, far from the countries
                 Vokalia and Consonantia, there live the blind texts.
               </p>
-              <ul className="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+              <ul className="d-flex ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li className="ftco-animate fadeInUp ftco-animated">
                   <Link to="#">
                     <span className="icon-twitter">
-                      <i className="bi bi-twitter"></i>
+                      <FaTwitterSquare />
                     </span>
                   </Link>
                 </li>
                 <li className="ftco-animate fadeInUp ftco-animated">
                   <Link to="#">
-                    <span className="icon-facebook"></span>
+                    <span className="icon-facebook">
+                      <GrFacebook />
+                    </span>
                   </Link>
                 </li>
                 <li className="ftco-animate fadeInUp ftco-animated">
                   <Link to="#">
-                    <span className="icon-instagram"></span>
+                    <span className="icon-instagram">
+                      <GrInstagram />
+                    </span>
                   </Link>
                 </li>
               </ul>
@@ -157,20 +166,26 @@ const Layout = ({
               <div className="block-23 mb-3">
                 <ul>
                   <li>
-                    <span className="icon icon-map-marker">&#9742;</span>
+                    <span className="icon icon-map-marker">
+                      <BiMap />
+                    </span>
                     <span className="text">
                       203 Fake St. Mountain View, San Francisco, California, USA
                     </span>
                   </li>
                   <li>
                     <Link to="#">
-                      <span className="icon icon-phone">&#9742;</span>
+                      <span className="icon icon-phone">
+                        <VscCallIncoming />
+                      </span>
                       <span className="text">+2 392 3929 210</span>
                     </Link>
                   </li>
                   <li>
                     <Link to="#">
-                      <span className="icon icon-envelope">&#9990;</span>
+                      <span className="icon icon-envelope">
+                        <AiOutlineMail />
+                      </span>
                       <span className="text">info@yourdomain.com</span>
                     </Link>
                   </li>

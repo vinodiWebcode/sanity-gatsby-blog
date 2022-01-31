@@ -2,12 +2,14 @@
 import * as styles from "./blog-post-preview.module.css";
 import { buildImageObj, cn, getBlogUrl } from "../lib/helpers";
 import { Link } from "gatsby";
+import { GrInstagram } from "@react-icons/all-files/gr/GrInstagram";
+import { GrFacebook } from "@react-icons/all-files/gr/GrFacebook";
+import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import PortableText from "./portableText";
 import React from "react";
 // import { format } from "date-fns";
 import { imageUrlFor } from "../lib/image-url";
-
 // import { responsiveTitle3 } from "./typography.module.css";
 
 function BlogPostPreview(props) {
@@ -31,16 +33,18 @@ function BlogPostPreview(props) {
             )}
           </div>
           {/* <div className={styles.text}>
-    <h3 className={cn(responsiveTitle3, styles.title)}>{props.title}</h3>
-    {props._rawExcerpt && (
-      <div className={styles.excerpt}>
-        <PortableText blocks={props._rawExcerpt} />
-      </div>
-    )}
-    <div className={styles.date}>
-      {format(new Date(props.publishedAt), "MMMM Mo, yyyy")}
-    </div>
-  </div> */}
+            <h3 className={cn(responsiveTitle3, styles.title)}>
+              {props.title}
+            </h3>
+            {props._rawExcerpt && (
+              <div className={styles.excerpt}>
+                <PortableText blocks={props._rawExcerpt} />
+              </div>
+            )}
+            <div className={styles.date}>
+              {format(new Date(props.publishedAt), "MMMM Mo, yyyy")}
+            </div>
+          </div> */}
         </Link>
         <div className={styles.gridList}>
           <div className="text w-100 pl-md-3">
@@ -50,20 +54,27 @@ function BlogPostPreview(props) {
                 Build a website in minutes with Adobe Templates
               </Link>
             </h2>
-            <ul className={"${styles.listunstyled} ${styles.mediasocial}"}>
+            <ul className="d-flex media-social listunstyled">
               <li className="ftco-animate fadeInUp ftco-animated">
                 <Link to="#">
-                  <span className="icon-twitter"></span>
+                  <span className="icon-twitter">
+                    <FaTwitterSquare />
+                  </span>
                 </Link>
               </li>
               <li className="ftco-animate fadeInUp ftco-animated">
                 <Link to="#">
-                  <span className="icon-facebook"></span>
+                  <span className="icon-facebook">
+                    <GrFacebook />{" "}
+                  </span>
                 </Link>
               </li>
               <li className="ftco-animate fadeInUp ftco-animated">
                 <Link to="#">
-                  <span className="icon-instagram"></span>
+                  <span className="icon-instagram">
+                    {" "}
+                    <GrInstagram />
+                  </span>
                 </Link>
               </li>
             </ul>
