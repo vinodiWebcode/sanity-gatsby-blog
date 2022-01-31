@@ -409,7 +409,7 @@ img {
 /* pagination css */
 
 .mt-5 {
-  margin-top: 6rem !important;
+  margin-top: 3rem !important;
 }
 .text-center {
   text-align: center !important;
@@ -481,4 +481,10 @@ img {
 h2 {
   text-decoration: none;
   outline: none !important;
+}
+.text.w-100.pl-md-3:hover .ftco-animated {
+  display: inline-block;
+}
+li.ftco-animate.fadeInUp.ftco-animated {
+  display: none;
 }
