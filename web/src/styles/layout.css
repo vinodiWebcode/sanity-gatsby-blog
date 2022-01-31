@@ -484,6 +484,7 @@ h2 {
 }
 .text.w-100.pl-md-3:hover .ftco-animated {
   display: inline-block;
+  transition: all 0.6s ease;
 }
 .text li.ftco-animate.fadeInUp.ftco-animated {
   display: none;

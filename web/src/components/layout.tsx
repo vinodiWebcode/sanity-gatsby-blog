@@ -4,6 +4,7 @@ import Header from "./header";
 import { GrInstagram } from "@react-icons/all-files/gr/GrInstagram";
 import { GrFacebook } from "@react-icons/all-files/gr/GrFacebook";
 import { RiMapPinLine } from "@react-icons/all-files/ri/RiMapPinLine";
+import { AiTwotoneHeart } from "@react-icons/all-files/ai/AiTwotoneHeart";
 import { VscCallIncoming } from "@react-icons/all-files/vsc/VscCallIncoming";
 import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail";
 import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
@@ -199,8 +200,12 @@ const Layout = ({
             <p>
               Copyright ©
               <script>document.write(new Date().getFullYear());</script>2022 All
-              rights reserved | This template is made with{" "}
-              <i className="icon-heart color-danger" aria-hidden="true"></i> by{" "}
+              rights reserved | This template is made with
+              <AiTwotoneHeart />{" "}
+              <i
+                className="icon-heart color-danger"
+                aria-hidden="true"
+              ></i> by{" "}
               <Link to="https://colorlib.com" target="_blank" rel="noreferrer">
                 Colorlib
               </Link>
