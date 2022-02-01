@@ -263,11 +263,6 @@ ul {
   margin-top: 0;
   margin-bottom: 1rem;
 }
-.ftco-footer .ftco-footer-widget ul li a {
-  color: #fff;
-  text-decoration: none;
-  background-color: transparent;
-}
 .ftco-footer .ftco-footer-widget ul li a span {
   color: #fff;
 }
@@ -353,8 +348,8 @@ img {
 .text .ftco-animate {
   /* opacity: 0;
   visibility: hidden; */
-  -webkit-animation-duration: .5s;
-  animation-duration: .5s;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
@@ -390,20 +385,8 @@ img {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
-/* .text .media-social li a span [class^="icon-"], [class*=" icon-"] {
-  font-family: 'icomoon' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-} */
-
 .text ul {
-  padding-left: 0rem!important
+  padding-left: 0rem !important;
 }
 
 /* pagination css */
@@ -424,7 +407,8 @@ img {
   font-weight: 400;
   margin-left: 5px;
 }
-.block-27 ul li a, .block-27 ul li span {
+.block-27 ul li a,
+.block-27 ul li span {
   color: gray;
   text-align: center;
   display: inline-block;
@@ -433,12 +417,13 @@ img {
   line-height: 40px;
   border-radius: 50%;
   font-weight: 400;
-  transition: .3s all ease;
+  transition: 0.3s all ease;
   text-decoration: none;
-    background-color: transparent;
+  background-color: transparent;
   border: 1px solid #e6e6e6;
 }
-.block-27 ul li.active a, .block-27 ul li.active span {
+.block-27 ul li.active a,
+.block-27 ul li.active span {
   background: #ffd369;
   color: #fff;
   border: 1px solid transparent;
@@ -458,7 +443,7 @@ img {
   float: left;
   background: rgba(255, 255, 255, 0.05);
   border-radius: 50%;
-  transition: .3s all ease;
+  transition: 0.3s all ease;
   position: relative;
 }
 .ftco-footer-social li a span {
@@ -485,9 +470,9 @@ h2 {
 .text.w-100.pl-md-3:hover a {
   opacity: 2;
   color: gray;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 .text li.ftco-animate.fadeInUp a {
   opacity: 0;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }

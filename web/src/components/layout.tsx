@@ -2,12 +2,12 @@
 import React, { ReactNode } from "react";
 import Header from "./header";
 import { GrInstagram } from "@react-icons/all-files/gr/GrInstagram";
-import { GrFacebook } from "@react-icons/all-files/gr/GrFacebook";
+import { FiFacebook } from "@react-icons/all-files/fi/FiFacebook";
 import { RiMapPinLine } from "@react-icons/all-files/ri/RiMapPinLine";
 import { AiTwotoneHeart } from "@react-icons/all-files/ai/AiTwotoneHeart";
 import { VscCallIncoming } from "@react-icons/all-files/vsc/VscCallIncoming";
 import { AiOutlineMail } from "@react-icons/all-files/ai/AiOutlineMail";
-import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
+import { RiTwitterLine } from "@react-icons/all-files/ri/RiTwitterLine";
 import "../styles/layout.css";
 import * as styles from "./layout.module.css";
 import { Link } from "gatsby";
@@ -62,14 +62,14 @@ const Layout = ({
                 <li className="ftco-animate fadeInUp ftco-animated">
                   <Link to="#">
                     <span className="icon-twitter">
-                      <FaTwitterSquare />
+                      <RiTwitterLine />
                     </span>
                   </Link>
                 </li>
                 <li className="ftco-animate fadeInUp ftco-animated">
                   <Link to="#">
                     <span className="icon-facebook">
-                      <GrFacebook />
+                      <FiFacebook />
                     </span>
                   </Link>
                 </li>
