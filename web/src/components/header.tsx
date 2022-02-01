@@ -37,7 +37,7 @@ const Header = () => (
       <div className="container">
         <Link className="navbar-brand" to="#">
           Read
-          <i>it</i>
+          <i>it</i>.
         </Link>
         <button
           className="navbar-toggler"
@@ -80,7 +80,7 @@ const Header = () => (
 
     <div className="js-fullheight">
       <div className="overlay"></div>
-      <div className="container">
+      <div className="container mt-5">
         <div
           className="row no-gutters slider-text js-fullheight align-items-center justify-content-start"
           data-scrollax-parent="true"

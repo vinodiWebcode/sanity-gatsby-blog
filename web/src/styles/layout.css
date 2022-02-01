@@ -59,6 +59,7 @@ body > div > div {
 }
 .container .navbar-brand {
   font-weight: 900;
+  color: #fff;
   font-size: 26px;
   font-family: "Poppins", Arial, sans-serif;
   line-height: 1;
@@ -475,4 +476,7 @@ h2 {
 .text li.ftco-animate.fadeInUp a {
   opacity: 0;
   transition: all 0.2s ease-in-out;
+}
+.js-fullheight .mt-5 {
+  margin-top: 10rem !important;
 }
