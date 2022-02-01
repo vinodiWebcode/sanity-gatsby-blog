@@ -3,8 +3,8 @@ import * as styles from "./blog-post-preview.module.css";
 import { buildImageObj, cn, getBlogUrl } from "../lib/helpers";
 import { Link } from "gatsby";
 import { GrInstagram } from "@react-icons/all-files/gr/GrInstagram";
-import { GrFacebook } from "@react-icons/all-files/gr/GrFacebook";
-import { FaTwitterSquare } from "@react-icons/all-files/fa/FaTwitterSquare";
+import { FiFacebook } from "@react-icons/all-files/fi/FiFacebook";
+import { RiTwitterLine } from "@react-icons/all-files/ri/RiTwitterLine";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import PortableText from "./portableText";
 import React from "react";
@@ -58,14 +58,14 @@ function BlogPostPreview(props) {
               <li className="ftco-animate fadeInUp ftco-animated">
                 <Link to="#">
                   <span className="icon-twitter">
-                    <FaTwitterSquare />
+                    <RiTwitterLine />
                   </span>
                 </Link>
               </li>
               <li className="ftco-animate fadeInUp ftco-animated">
                 <Link to="#">
                   <span className="icon-facebook">
-                    <GrFacebook />{" "}
+                    <FiFacebook />{" "}
                   </span>
                 </Link>
               </li>
