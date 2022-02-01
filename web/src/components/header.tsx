@@ -97,12 +97,12 @@ const Header = () => (
                     texts. Separated they live in Bookmarksgrove right at the
                     coast of the Semantics, a large language ocean.
                   </p>
-                  <div className="mouse">
-                    <Link to="#" className="mouse-icon">
+                  <div className="down-arrow">
+                    {/* <Link to="#" className="mouse-icon">
                       <div className="mouse-wheel">
                         <span className="ion-ios-arrow-round-down"></span>
                       </div>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
