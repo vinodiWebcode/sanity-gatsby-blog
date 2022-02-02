@@ -35,7 +35,7 @@ function SEO({
       }
     }
   `;
-  const { site } = useStaticQuery(detailsQuery) || {};
+  const { site }: any = useStaticQuery(detailsQuery) || {};
 
   const metaDescription: string = description || site.description || "";
   const siteTitle: string = site.title || "";
