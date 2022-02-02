@@ -1,4 +1,3 @@
-/* eslint-disable import/no-unresolved */
 import * as styles from "./blog-post-preview.module.css";
 import { buildImageObj, cn, getBlogUrl } from "../lib/helpers";
 import { Link } from "gatsby";
@@ -12,7 +11,12 @@ import React from "react";
 import { imageUrlFor } from "../lib/image-url";
 // import { responsiveTitle3 } from "./typography.module.css";
 
-function BlogPostPreview(props) {
+function BlogPostPreview(props: {
+  isInList: any;
+  publishedAt: string | number | Date;
+  slug: { current: { current: any } };
+  mainImage: { asset: {} } | undefined;
+}) {
   return (
     <>
       <div className={styles.gridListdiv}>

@@ -12,6 +12,7 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
+    "@types/bootstrap": "^5.1.9",
     "dotenv": "^8.0.0",
     "postcss": "^8.2.7",
     "postcss-preset-env": "^6.6.0"

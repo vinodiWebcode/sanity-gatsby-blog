@@ -9,8 +9,14 @@ import { buildImageObj } from "../lib/helpers";
 import { imageUrlFor } from "../lib/image-url";
 
 function BlogPost(props: any) {
-  const { _rawBody, authors, categories, title, mainImage, publishedAt } =
-    props;
+  const {
+    _rawBody,
+    authors,
+    categories,
+    title,
+    mainImage,
+    publishedAt,
+  } = props;
   return (
     <article className={styles.root}>
       {mainImage && mainImage.asset && (
@@ -45,9 +51,20 @@ function BlogPost(props: any) {
               <div className={styles.categories}>
                 <h3 className={styles.categoriesHeadline}>Categories</h3>
                 <ul>
-                  {categories.map((category) => (
-                    <li key={category._id}>{category.title}</li>
-                  ))}
+                  {categories.map(
+                    (category: {
+                      _id: React.Key | null | undefined;
+                      title:
+                        | boolean
+                        | React.ReactChild
+                        | React.ReactFragment
+                        | React.ReactPortal
+                        | null
+                        | undefined;
+                    }) => (
+                      <li key={category._id}>{category.title}</li>
+                    )
+                  )}
                 </ul>
               </div>
             )}
